@@ -1,0 +1,17 @@
+package com.hm.userservice.vo;
+
+
+import lombok.Data;
+
+import java.util.Date;
+
+@Data
+public class ResponseOrder {
+    private String productid;
+    private Integer qty;
+    private Integer unitPrice;
+    private Integer totalPrice;
+    private Date createAt;
+
+    private String orderId;
+}
